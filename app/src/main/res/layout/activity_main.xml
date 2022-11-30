@@ -32,39 +32,39 @@
 
             <Button
                 android:id="@+id/buAC"
-                android:onClick="acEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="acEvent"
                 android:text="AC"></Button>
 
             <Button
                 android:id="@+id/buPlusMinus"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="+ / -"></Button>
 
             <Button
                 android:id="@+id/buDivide"
-                android:onClick="operatorEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="operatorEvent"
                 android:text="/"></Button>
 
             <Button
                 android:id="@+id/buMultiply"
-                android:onClick="operatorEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
+                android:onClick="operatorEvent"
                 android:text="×"
                 android:textColor="@color/white"></Button>
         </TableRow>
@@ -76,39 +76,39 @@
 
             <Button
                 android:id="@+id/bu7"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="7"></Button>
 
             <Button
                 android:id="@+id/bu8"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="8"></Button>
 
             <Button
                 android:id="@+id/bu9"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="9"></Button>
 
             <Button
                 android:id="@+id/buPercent"
-                android:onClick="percentEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
+                android:onClick="percentEvent"
                 android:text="%"
                 android:textColor="@color/white"></Button>
         </TableRow>
@@ -120,39 +120,39 @@
 
             <Button
                 android:id="@+id/bu4"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="4"></Button>
 
             <Button
                 android:id="@+id/bu5"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="5"></Button>
 
             <Button
                 android:id="@+id/bu6"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="6"></Button>
 
             <Button
                 android:id="@+id/buPlus"
-                android:onClick="operatorEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
+                android:onClick="operatorEvent"
                 android:text="+"
                 android:textColor="@color/white"></Button>
         </TableRow>
@@ -164,39 +164,39 @@
 
             <Button
                 android:id="@+id/bu1"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="1"></Button>
 
             <Button
                 android:id="@+id/bu2"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="2"></Button>
 
             <Button
                 android:id="@+id/bu3"
-                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="3"></Button>
 
             <Button
                 android:id="@+id/buMinus"
-                android:onClick="operatorEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
+                android:onClick="operatorEvent"
                 android:text="-"
                 android:textColor="@color/white"></Button>
         </TableRow>
@@ -214,30 +214,30 @@
 
             <Button
                 android:id="@+id/bu0"
-                android:onClick="numberEvent"
                 android:layout_width="46pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="2"
+                android:onClick="numberEvent"
                 android:text="0"></Button>
 
             <Button
                 android:id="@+id/buDot"
-                android:onClick="numberEvent"
                 android:layout_width="46pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:onClick="numberEvent"
                 android:text="."></Button>
 
             <Button
                 android:id="@+id/buEqual"
-                android:onClick="equalEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
+                android:onClick="equalEvent"
                 android:text="="></Button>
 
         </TableRow>
