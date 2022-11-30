@@ -40,6 +40,7 @@
 
             <Button
                 android:id="@+id/buPlusMinus"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -81,6 +82,7 @@
 
             <Button
                 android:id="@+id/bu8"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -89,6 +91,7 @@
 
             <Button
                 android:id="@+id/bu9"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -113,6 +116,7 @@
 
             <Button
                 android:id="@+id/bu4"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -121,6 +125,7 @@
 
             <Button
                 android:id="@+id/bu5"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -129,6 +134,7 @@
 
             <Button
                 android:id="@+id/bu6"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -153,6 +159,7 @@
 
             <Button
                 android:id="@+id/bu1"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -161,6 +168,7 @@
 
             <Button
                 android:id="@+id/bu2"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -169,6 +177,7 @@
 
             <Button
                 android:id="@+id/bu3"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -199,6 +208,7 @@
 
             <Button
                 android:id="@+id/bu0"
+                android:onClick="numberEvent"
                 android:layout_width="46pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -207,6 +217,7 @@
 
             <Button
                 android:id="@+id/buDot"
+                android:onClick="numberEvent"
                 android:layout_width="46pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
