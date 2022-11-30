@@ -5,9 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
 
+    String oldNumber = "";
+    String op = "+";
     boolean isNewOp = true;
     EditText ed1;
 
@@ -66,5 +69,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void operatorEvent(View view) {
+        isNewOp = true;
+        oldNumber = ed1.getText().toString();
+        switch (view.getId()){
+            case R.id.buDivide: op="/"; break;
+            case R.id.buMultiply: op="*"; break;
+            case R.id.buPlus: op="+"; break;
+            case R.id.buMinus: op="-"; break;
+        }
+    }
+
+    public void equalEvent(View view) {
     }
 }

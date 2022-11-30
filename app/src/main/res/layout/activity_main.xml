@@ -58,6 +58,7 @@
 
             <Button
                 android:id="@+id/buMultiply"
+                android:onClick="operatorEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -144,6 +145,7 @@
 
             <Button
                 android:id="@+id/buPlus"
+                android:onClick="operatorEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -187,6 +189,7 @@
 
             <Button
                 android:id="@+id/buMinus"
+                android:onClick="operatorEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -227,6 +230,7 @@
 
             <Button
                 android:id="@+id/buEqual"
+                android:onClick="equalEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
