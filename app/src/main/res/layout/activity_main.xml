@@ -72,6 +72,7 @@
 
             <Button
                 android:id="@+id/bu7"
+                android:onClick="numberEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
