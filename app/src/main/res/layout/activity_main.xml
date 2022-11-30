@@ -11,8 +11,9 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="1pt"
         android:layout_weight="1"
-        android:background="@color/teal_700"
+        android:background="@color/white"
         android:ems="10"
         android:gravity="right|center"
         android:inputType="textPersonName"
@@ -20,9 +21,9 @@
         android:textSize="40pt" />
 
     <TableLayout
-        android:layout_marginBottom="1pt"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1pt">
 
 
         <TableRow
@@ -59,13 +60,15 @@
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:backgroundTint="@color/black"
                 android:text="×"
                 android:textColor="@color/white"></Button>
         </TableRow>
+
         <TableRow
-            android:layout_marginBottom="1pt"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
 
             <Button
                 android:id="@+id/bu7"
@@ -97,13 +100,15 @@
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:backgroundTint="@color/black"
                 android:text="%"
                 android:textColor="@color/white"></Button>
         </TableRow>
+
         <TableRow
-            android:layout_marginBottom="1pt"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
 
             <Button
                 android:id="@+id/bu4"
@@ -135,13 +140,15 @@
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:backgroundTint="@color/black"
                 android:text="+"
                 android:textColor="@color/white"></Button>
         </TableRow>
+
         <TableRow
-            android:layout_marginBottom="1pt"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
 
             <Button
                 android:id="@+id/bu1"
@@ -173,18 +180,19 @@
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:backgroundTint="@color/black"
                 android:text="-"
                 android:textColor="@color/white"></Button>
         </TableRow>
-        
+
     </TableLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
         <TableRow
-            android:layout_marginBottom="1pt"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -210,11 +218,10 @@
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
+                android:backgroundTint="@color/black"
                 android:text="="></Button>
 
-
         </TableRow>
-
 
     </LinearLayout>
 
