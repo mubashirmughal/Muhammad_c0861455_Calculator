@@ -49,6 +49,7 @@
 
             <Button
                 android:id="@+id/buDivide"
+                android:onClick="operatorEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"

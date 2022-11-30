@@ -8,6 +8,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    boolean isNewOp = true;
     EditText ed1;
 
     @Override
@@ -19,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void numberEvent(View view) {
+        if (isNewOp)
+            ed1.setText("");
+        isNewOp = false;
         String number = ed1.getText().toString();
         switch (view.getId()){
             case R.id.bu1:
@@ -59,5 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         ed1.setText(number);
+    }
+
+    public void operatorEvent(View view) {
     }
 }
