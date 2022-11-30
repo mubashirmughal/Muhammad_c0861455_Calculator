@@ -32,6 +32,7 @@
 
             <Button
                 android:id="@+id/buAC"
+                android:onClick="acEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
@@ -102,6 +103,7 @@
 
             <Button
                 android:id="@+id/buPercent"
+                android:onClick="percentEvent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
