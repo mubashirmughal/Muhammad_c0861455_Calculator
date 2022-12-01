@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
             case "/":
                 result = Double.parseDouble(oldNumber) / Double.parseDouble(newNumber);
                 break;
+
         }
         ed1.setText(result + "");
     }
